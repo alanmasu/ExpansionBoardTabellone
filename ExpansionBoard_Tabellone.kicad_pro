@@ -405,7 +405,8 @@
   "libraries": {
     "pinned_footprint_libs": [
       "MCU_Espressif_Footprints",
-      "Connector_Header_P2.54_my"
+      "Connector_Header_P2.54_my",
+      "Connector_Screw_P5.08_my"
     ],
     "pinned_symbol_libs": [
       "MCU_Espressif_my"
@@ -448,7 +449,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ExpansionBoard_Tabellone.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
