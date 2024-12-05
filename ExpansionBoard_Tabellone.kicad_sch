@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Espansion Board per Tabellone Segnapunti")
+    (date "2024-12-06")
+    (rev "1.0")
+    (company "Alan Masutti")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
@@ -2592,7 +2599,7 @@
   )
 
   (symbol (lib_id "Transistor_BJT:BC337") (at 115.57 167.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bcc6efc-ae77-43bc-bb67-06654a509563)
     (property "Reference" "Q102" (at 120.65 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2722,7 +2729,7 @@
   )
 
   (symbol (lib_id "Diode:1N4148") (at 113.03 148.59 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 30b2ccf8-51b6-4e88-ad9f-d8ef17bd66fa)
     (property "Reference" "D102" (at 102.87 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3172,7 +3179,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 104.14 167.64 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 71f88f81-5531-43d2-9880-bb52aaeabfae)
     (property "Reference" "R103" (at 104.14 165.1 90)
       (effects (font (size 1.27 1.27)))
@@ -3697,7 +3704,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 157.48 148.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cab83ffe-419b-43f9-ad48-f6f0fb92e2eb)
     (property "Reference" "J116" (at 160.02 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
